@@ -1,0 +1,137 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Good day",
+                "Is anyone there?",
+                "Hey"
+            ],
+            "responses": [
+                "Welcome to STADPRIN's AI Assistant. How can I assist you with policing services today?",
+                "Hello! How can I help you improve safety in your community today?",
+                "Greetings! Need help with a police-related matter?"
+            ]
+        },
+        {
+            "tag": "report_crime",
+            "patterns": [
+                "I want to report a crime",
+                "How do I report a theft?",
+                "I witnessed a crime",
+                "Crime report"
+            ],
+            "responses": [
+                "I'm here to assist. Could you please provide the location and nature of the crime?",
+                "Let's ensure your report is processed quickly. What happened and where?",
+                "Please share details about the incident, including time and location."
+            ]
+        },
+        {
+            "tag": "case_status",
+            "patterns": [
+                "How can I check my case status?",
+                "Case update",
+                "Status of my police report",
+                "What's happening with my case?"
+            ],
+            "responses": [
+                "To check your case status, please provide your case reference number.",
+                "I can help with that. Do you have your case file number ready?",
+                "Let me assist you. Kindly provide the docket number linked to your case."
+            ]
+        },
+        {
+            "tag": "bodycam_query",
+            "patterns": [
+                "How does bodycam footage work?",
+                "Explain your AI bodycam process",
+                "Tell me about automated docket processing",
+                "What is ADP?"
+            ],
+            "responses": [
+                "STADPRIN uses AI-powered Automated Docket Processing (ADP) to convert bodycam footage into complete police documents, improving accuracy and speeding up investigations.",
+                "Our AI analyzes bodycam footage in real time to generate secure and comprehensive police reports, revolutionizing policing in South Africa."
+            ]
+        },
+        {
+            "tag": "missing_docket",
+            "patterns": [
+                "What happens if a docket goes missing?",
+                "Missing case file",
+                "Lost police report"
+            ],
+            "responses": [
+                "With STADPRIN's AI-powered system, all case files are securely backed up. If a docket goes missing, we can retrieve it digitally. Do you need help accessing a specific file?",
+                "Our digital system ensures dockets are always accessible. Provide the case number, and we’ll retrieve it."
+            ]
+        },
+        {
+            "tag": "emergency_contact",
+            "patterns": [
+                "Emergency",
+                "I need urgent help",
+                "There's a crime happening now",
+                "Who do I call in an emergency?"
+            ],
+            "responses": [
+                "If this is an emergency, please call 10111 immediately.",
+                "Dial 10111 for immediate police assistance.",
+                "For urgent situations, contact your nearest police station or call 10111."
+            ]
+        },
+        {
+            "tag": "location_services",
+            "patterns": [
+                "Where is the nearest police station?",
+                "Police station near me",
+                "Closest SAPS office"
+            ],
+            "responses": [
+                "Please provide your location, and I will find the nearest police station for you.",
+                "Share your suburb or area, and I’ll give you directions to the closest SAPS station."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks a lot",
+                "Much appreciated",
+                "Thanks for your help"
+            ],
+            "responses": [
+                "You're welcome. Stay safe!",
+                "Glad I could help. STADPRIN is always here for you.",
+                "Anytime. Your safety is our mission."
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [
+                "I don't understand",
+                "What do you mean?",
+                "Can you explain that?",
+                "Not sure what you're saying"
+            ],
+            "responses": [
+                "I'm sorry, I didn't quite get that. Could you rephrase?",
+                "Hmm, I’m not sure I follow. Try asking in another way or specify if it’s about a case, report, or emergency."
+            ]
+        },
+        {
+            "tag": "ai_security",
+            "patterns": [
+                "Is my data safe?",
+                "How secure is the AI system?",
+                "Can my case be accessed by others?"
+            ],
+            "responses": [
+                "STADPRIN ensures top-level encryption for all police data, ensuring that only authorized personnel have access.",
+                "Your privacy is our priority. Our AI operates under strict security protocols compliant with South African law."
+            ]
+        }
+    ]
+}
